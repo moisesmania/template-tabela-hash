@@ -44,8 +44,7 @@ def test_insert_get_sem_colisao(): # 3pts
     expected = "valor4"
     assert result == expected
 
-
-def test_insert_get_com_colisao1(): # 3pts
+def test_insert_get_com_colisao1(): # 4pts
 
     try:
         exists = os.path.exists("tabela_hash.py")
@@ -84,7 +83,7 @@ def test_insert_get_com_colisao1(): # 3pts
     expected = "valor5"
     assert result == expected
 
-def test_insert_get_com_colisao2_e_sobrescrita(): # 3pts
+def test_insert_get_com_colisao2_e_sobrescrita(): # 4pts
     try:
         exists = os.path.exists("tabela_hash.py")
         assert exists == True
