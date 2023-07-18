@@ -20,13 +20,13 @@ class TabelaHashEnderecamentoAberto:
 
 
     # Retorna o valor do hash para uma determinada chave
-    def hash_funtion(self, chave) -> int:
+    def __hash(self, chave) -> int:
         # implementação do método
         pass
 
 
     # Retorna o valor do hash2 para uma determinada chave e índice k
-    def hash2_funtion(self, chave, k) -> int:
+    def __hash2(self, chave, k) -> int:
         # implementação do método
         pass
 
@@ -35,7 +35,7 @@ class TabelaHashEnderecamentoAberto:
     # Caso a chave não exista na tabela, retorna -1
     # Esse é um método privado, pois só é utilizado dentro da classe
     # Ele é usado internamente para auxiliar os métodos get() e remove()
-    def find(self, chave) -> int:
+    def __find(self, chave) -> int:
         # implementação do método
         pass
 
